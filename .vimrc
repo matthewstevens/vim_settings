@@ -33,13 +33,8 @@ let g:Powerline_symbols='fancy'
 " Use jj to escape insert mode
 imap jj <esc>
 
-" Filetype specific settings
 " Settings for plugins
 filetype plugin indent on
-" FIXME - refactor for python only
-set shiftwidth=4
-set tabstop=4
-set expandtab
 
 " Keyboard mappings
 " in normal mode F2 will save the file
