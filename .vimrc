@@ -13,6 +13,9 @@ set laststatus=2
 " enable unicode glyphs
 " required for powerline
 set encoding=utf-8
+" explicitly tell vim to use 256 color mode.
+" required for powerline on my version of gnome
+set t_Co=256
 " set the indentation based on the previous line
 set autoindent
 " smart indentation for c/c++
@@ -24,8 +27,9 @@ set autochdir
 " hi CursorLine term=none cterm=none ctermbg=7
 " Install pathogen
 call pathogen#infect()
-call pathogen#helptags()
 autocmd TabEnter call pathogen#infect()
+" Propogate bundled plugin help tags
+call pathogen#helptags()
 autocmd TabEnter call pathogen#helptags()
 " Turn on Powerline
 let g:Powerline_symbols='fancy'
