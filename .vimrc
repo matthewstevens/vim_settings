@@ -30,6 +30,8 @@ call pathogen#helptags()
 autocmd TabEnter call pathogen#helptags()
 " Turn on Powerline
 let g:Powerline_symbols='fancy'
+" Use jj to escape insert mode
+imap jj <esc>
 
 " Filetype specific settings
 " Settings for plugins
