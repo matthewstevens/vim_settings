@@ -22,9 +22,6 @@ set autoindent
 set smartindent
 " Automatically change cwd to the directory of the current file
 set autochdir
-" Highlight the current line FIXME - do I really wants this?
-" set cul
-" hi CursorLine term=none cterm=none ctermbg=7
 " Install pathogen
 call pathogen#infect()
 autocmd TabEnter call pathogen#infect()
