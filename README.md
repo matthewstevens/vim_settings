@@ -10,7 +10,7 @@ Installed plugins
    - https://github.com/tpope/vim-pathogen
    - vim plugin manager
  * fugitive
-   - git://github.com/tpope/vim-fugitive.git
+   - https://github.com/tpope/vim-fugitive.git
    - git integration
  * powerline
    - https://github.com/Lokaltog/vim-powerline
