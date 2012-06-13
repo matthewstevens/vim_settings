@@ -15,7 +15,7 @@ set autochdir
 " hi CursorLine term=none cterm=none ctermbg=7
 " Install pathogen
 call pathogen#infect()
-
+autocmd TabEnter call pathogen#infect()
 " Filetype specific settings
 " Settings for plugins
 filetype plugin indent on
