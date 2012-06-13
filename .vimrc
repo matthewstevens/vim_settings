@@ -6,6 +6,8 @@ set nocompatible
 set autoindent
 " smart indentation for c/c++
 set smartindent
+" Automatically change cwd to the directory of the current file
+set autochdir
 " FIXME - refactor for python only
 set shiftwidth=4
 set tabstop=4
@@ -16,5 +18,3 @@ set expandtab
 nmap <F2> :w<CR>
 " in insert mode F2 will save the file
 imap <F2> <ESC>:w<CR>i
-" Automatically change cwd to the directory of the current file
-set autochdir
